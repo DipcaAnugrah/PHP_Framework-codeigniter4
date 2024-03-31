@@ -22,11 +22,11 @@ Berikut beberapa ekstensi yang perlu diaktifkan:<br>
 
     Untuk mengaktifkan ekstentsi tersebut, melalu XAMPP Control Panel, pada bagian Apache 
 klik Config -> PHP.ini <br>
-<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/phpini.png" width=40% >
+<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/phpini.png" width=70% >
 
     Pada bagian extention, hilangkan tanda ; (titik koma) pada ekstensi yang akan diaktifkan. 
 Kemudian simpan kembali filenya dan restart Apache web server.<br>
-<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/extension.png" width=40% >
+<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/extension.png" width=70% >
 
 
 2. **Instalasi Codeigniter 4**<br>
@@ -36,7 +36,7 @@ Kemudian simpan kembali filenya dan restart Apache web server.<br>
 *  Extrak file zip Codeigniter ke direktori htdocs/lab11_ci.<br>
 *  Ubah nama direktory framework-4.x.xx menjadi ci4.<br>
 *  Buka browser dengan alamat http://localhost/lab11_ci/ci4/public/<br>
-<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/welcome.png" width=40% >
+<img src="https://github.com/DipcaAnugrah/PHP_Framework-codeigniter4/blob/main/gambar/welcome.png" width=70% >
 
 
 <h1 align="center">Terimakasih</h1>
