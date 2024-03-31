@@ -1,0 +1,233 @@
+/* import google font */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:ital,wght@0,300;0,700;1,300&display=swap");
+
+/* Reset CSS */
+:root {
+  --bgColor: #059ce2;
+  --textColor: #fefaf7;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  line-height: 1;
+  font-size: 100%;
+  font-family: "Open Sans", sans-serif;
+}
+
+#container {
+  width: 980px;
+  margin: 0 auto;
+  box-shadow: 0 0 1em #000000;
+}
+
+/* header */
+header {
+  padding: 20px;
+}
+
+header h1 {
+  margin: 20px 10px;
+  color: var(--bgColor);
+}
+
+/* navigasi */
+nav {
+  display: block;
+  background-color: var(--bgColor);
+}
+
+nav a {
+  padding: 15px 30px;
+  display: inline-block;
+  color: var(--textColor);
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a.active,
+nav a:hover {
+  background-color: #96d0ed;
+  transition: 0.5s;
+}
+
+/* footer */
+footer {
+  clear: both;
+  text-align: center;
+  background-color: var(--bgColor);
+  padding: 20px;
+  color: var(--textColor);
+}
+
+/* Admin tabel */
+table {
+  border-collapse: collapse;
+  margin: 20px;
+  width: 95%;
+}
+
+table td {
+  border: 1px solid var(--bgColor);
+  font-size: 19px;
+  padding: 10px 8px;
+}
+
+table th {
+  background: var(--bgColor);
+  color: white;
+  font-size: 17px;
+  text-align: left;
+  border: 1px solid #059ce2;
+  padding: 13px 15px;
+}
+
+table tr {
+  background: rgb(182, 212, 230);
+  text-align: left;
+}
+
+tr:hover {
+  background: #d6e5f0;
+  transition: .5s;
+}
+
+/* tombol admin */
+.btn {
+  font-size: 14px;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  border-radius: 50px;
+  padding: 10px 20px;
+  border: none;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+.btn-danger {
+  font-size: 14px;
+  background-color: #f76363;
+  color: var(--textColor);
+  border-radius: 50px;
+  padding: 10px 20px;
+  margin-top: 8px;
+  text-decoration: none;
+}
+
+a:active,
+a:hover {
+  opacity: 80%;
+}
+
+/* Tambah artikel */
+
+textarea {
+  width: 94%;
+  padding: 10px;
+  border: 2px solid var(--bgColor);
+  box-sizing: border-box;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+input[type="text"] {
+  width: 94%;
+  padding: 10px;
+  background-color: #96d0ed;
+  border: 2px solid var(--bgColor);
+  border-radius: 20px;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 20px;
+}
+
+input[type="submit"] {
+  padding: 10px;
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 20px;
+}
+
+input[type="submit"]:active,
+input[type="submit"]:hover {
+  background-color: #96d0ed;
+  transition: 0.5s;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+/* PAGINATION */
+.pagination {
+  display: inline-block;
+  padding-left: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.pagination > li {
+  display: inline;
+}
+
+.pagination > li > a,
+.pagination > li > span {
+  position: relative;
+  float: left;
+  padding: 0.5rem 0.75rem;
+  margin-left: -1px;
+  line-height: 1.5;
+  color: var(--textColor);
+  text-decoration: none;
+  background-color: var(--bgColor);
+  border: 1px solid --bgColor;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+  z-index: 2;
+  color: var(--bgColor);
+  cursor: default;
+  background-color: #059ce2;
+    border: none;
+}
+
+/* SEARCH */
+.form-search input[type="text"] {
+  width: 50%;
+  border: 2px solid var(--bgColor);
+  box-sizing: border-box;
+  font-size: 15px;
+  margin: 30px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.btn-primary:active,
+.btn-primary:hover {
+  opacity: 80%;
+}
+
+/* INPUT GAMBAR */
+input[type="file"] {
+  margin: 20px;
+}
